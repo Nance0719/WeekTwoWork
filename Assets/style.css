@@ -5,6 +5,8 @@
 
 body {
    font-family: Arial;
+   color: rgb(255, 255, 255);
+   background-color: #000000;
 }
  
 
@@ -17,7 +19,6 @@ header {
 
 header h1 {
     
-    color: white;
     text-align: center;
     font-family: cursive;
     font-size: 5rem;
@@ -25,8 +26,8 @@ header h1 {
 }
 
 nav {
-    background-color: rgb(31, 30, 30);
-    color: white;
+    padding-bottom: 0.5%;
+    border-bottom: 5px solid rgb(31, 30, 30);
     align-items: center;
     text-align: right;
 }
@@ -45,12 +46,11 @@ section {
 }
 
 p {
-    color: white;
     padding: 5%
 }
 
  a {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 a:hover {
@@ -60,7 +60,6 @@ a:hover {
 
 
 li {
-    color: white;
     margin: 2%;
     display: inline;
     text-decoration: underline;
@@ -70,8 +69,7 @@ li {
 
 
 .left {
-    background-color: black;
-    color: white;
+    
     font-size: 1.5rem;
     flex: 30%;
     
@@ -84,14 +82,13 @@ li {
 }
 
 .right {
-
-    background-color: black;
     flex: 70%;
     border-left: 5px solid rgb(31, 30, 30);
 }
 
 
 .work {
+
     text-align: right;
     padding-right: 2%;
     font-size: 2rem;
@@ -105,19 +102,19 @@ li {
     justify-content: space-evenly;
 }
 
-.container .smallImage {
+.container .sunsetImage {
     flex: 0 0 calc(35% - 20px);
     margin: 2%;
     position: relative;
 } 
 
-.container .bigImage{
-    border: 5px solid rgb(31, 30, 30);
+.container .bigImage {
+
     flex-basis: 75%;
     margin: 5%;
 }
 
-.container .smallImage img {
+.container .sunsetImage img {
     display: block;
     width: 100%;
     border: 5px solid rgb(31, 30, 30);
@@ -135,7 +132,7 @@ div img:hover {
 }
 
 .contactMe {
-    padding-top: 151%;
+
     text-align: right;
     padding-right: 2%;
     font-size: 2rem;
@@ -143,7 +140,7 @@ div img:hover {
 }
 
 
-.container .smallImage figcaption {
+.container .sunsetImage figcaption {
     color: white;
     position: absolute;
     left: 0;
@@ -165,28 +162,23 @@ div img:hover {
         text-align: center;
     } 
 
+    .container .sunsetImage figcaption {
+      
+        font-size: .75rem;
+    }
+    
+
+
 }
 
-@media screen and (max-width: 500px) {
-    .container .smallImage figcaption {
-        color: blue;
-        position: absolute;
-        left: 0;
-        bottom: 20px;
-        background-color: rgb(31, 30, 30);
-        padding: 2%;
+@media screen and (max-width: 600px) {
+
+    .container .sunsetImage figcaption {
+
         font-size: .25rem;
     }
     
-    .container .bigImage figcaption {
-        color: blue;
-        position: absolute;
-        left: 0;
-        bottom: 20px;
-        background-color: rgb(31, 30, 30);
-        font-size: .25rem;
     
-    }
 
 }
 

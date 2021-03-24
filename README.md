@@ -1,4 +1,4 @@
-# <Your-Project-Title>
+# My Page
 ## Description
 
 The objective in this assignment was to build a homepage about me(my portfolio). This page is to showcase my skills and talents to prospective employers. This page will highlight my strongest work as well as links to other skills I have aquired. 
@@ -27,7 +27,7 @@ Once pulled over from gitHub onto your local machine.
 
 Here is a screenshot of the actual webpage.
  
- ![Screenshot](HomePage.png)
+ ![Screenshot](Assets\HomePage.png)
 <br>
 ## Credits
 https://bootcamp.unh.edu/ 
@@ -52,7 +52,7 @@ Image by <a href="https://pixabay.com/users/alexas_fotos-686414/?utm_source=link
 
 
 ## Website
-https://nance0719.github.io/Homework/
+https://nance0719.github.io/WeekTwoWork/
 
 ## License
 MIT License

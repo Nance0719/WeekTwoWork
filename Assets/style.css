@@ -120,8 +120,9 @@ li {
     border: 5px solid rgb(31, 30, 30);
 }
 
-div img:hover {
-    background-color: white;
+figure img:hover {
+    
+   filter: brightness(110%);
 }
 
 
@@ -144,7 +145,7 @@ div img:hover {
     color: white;
     position: absolute;
     left: 0;
-    bottom: 20px;
+    bottom: 50px;
     background-color: rgb(31, 30, 30);
     padding: 2%;
     font-size: 1rem;

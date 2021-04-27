@@ -52,7 +52,7 @@ Image by <a href="https://pixabay.com/users/alexas_fotos-686414/?utm_source=link
 
 
 ## Website
-https://coreynance.github.io/WeekTwoWork/
+https://coreynance.github.io/Portfolio/
 
 ## License
 MIT License

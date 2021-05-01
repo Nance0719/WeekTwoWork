@@ -166,6 +166,12 @@ figure img:hover {
     .container .sunsetImage figcaption {
       
         font-size: .75rem;
+        padding: 2%;
+    }
+
+    .resLink {
+        font-size: .75rem;
+
     }
     
 
@@ -176,7 +182,12 @@ figure img:hover {
 
     .container .sunsetImage figcaption {
 
-        font-size: .25rem;
+        font-size: .5rem;
+        padding: 2%;
+    }
+
+    .resLink {
+        font-size: .5rem;
     }
     
     

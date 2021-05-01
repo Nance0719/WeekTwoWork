@@ -27,7 +27,7 @@ Once pulled over from gitHub onto your local machine.
 
 Here is a screenshot of the actual webpage.
  
- ![Screenshot](./Assets/HomePage.png)
+ ![Screenshot](Assets/images/HomePage.png)
 <br>
 ## Credits
 https://bootcamp.unh.edu/ 

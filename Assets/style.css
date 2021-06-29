@@ -110,8 +110,9 @@ li {
 
 .container .bigImage {
 
-    flex-basis: 75%;
-    margin: 5%;
+    flex-basis: 40%;
+    /* margin: %; */
+    margin-top: 2.5%;
 }
 
 .container .sunsetImage img {
@@ -171,9 +172,10 @@ figure img:hover {
 
     .resLink {
         font-size: .75rem;
+       
 
     }
-    
+ 
 
 
 }
